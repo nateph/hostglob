@@ -1,6 +1,7 @@
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/nateph/hostglob) ![GitHub](https://img.shields.io/github/license/nateph/hostglob)
 ### Hostglob
 
-This library contains tools for collapsing and uncollapsing host globs, in the style of `hostprefix[001:004].hostsuffix` 
+This library contains tools for collapsing and uncollapsing host globs.
 
 Examples:
 ```
