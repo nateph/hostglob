@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/nateph/hostglob) ![GitHub](https://img.shields.io/github/license/nateph/hostglob)
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/nateph/hostglob) ![GitHub](https://img.shields.io/github/license/nateph/hostglob) [![Go Report Card](https://goreportcard.com/badge/github.com/nateph/hostglob)](https://goreportcard.com/report/github.com/nateph/hostglob)
 ### Hostglob
 
 This library contains tools for collapsing and uncollapsing host globs.
