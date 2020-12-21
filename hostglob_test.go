@@ -68,7 +68,7 @@ func TestUncollapse(t *testing.T) {
 
 	for testName, test := range tests {
 		t.Logf("running test %s", testName)
-		got, err := Uncollapse(test.input)
+		got, err := Expand(test.input)
 		if err != nil {
 			t.Error(err)
 		}

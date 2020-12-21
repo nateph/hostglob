@@ -14,8 +14,8 @@ func IsGlob(line string) bool {
 	return r.MatchString(line)
 }
 
-// Uncollapse will return a slice of all hosts from a globbed host range
-func Uncollapse(glob string) ([]string, error) {
+// Expand will return a slice of all hosts from a globbed host range
+func Expand(glob string) ([]string, error) {
 	prefix := HostnamePrefix(glob)
 	suffix := HostnameSuffix(glob)
 
